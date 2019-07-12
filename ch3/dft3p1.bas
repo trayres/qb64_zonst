@@ -33,8 +33,8 @@
 138 REM *         PRINT OUTPUT                   *
 139 REM ******************************************
 140 FOR Z=0 TO 15
-142 PRINT Z;"    "
-144 PRINT USING "##.####_     ";FC(Z),FS(Z),KC(Z),KS(Z)
+142 PRINT USING "## ";Z;
+144 PRINT USING "##.####  ";FC(Z),FS(Z),KC(Z),KS(Z)
 146 NEXT Z
 148 RETURN
 200 REM ******************************************
